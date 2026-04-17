@@ -14,8 +14,7 @@ The JSON file on the Backend can be generated with FoD-Compare.
 https://github.com/youngcs97/FoD-Compare
 
 ## Demo
-You can access the demo from:
-http://ec2-3-83-252-34.compute-1.amazonaws.com/
+Demo is hosted in AWS. 
 
 ## Installation and running
 
@@ -44,8 +43,10 @@ Or use the Dockerfile:
  docker run -d -p 80:80 fronted-fod
  ```
  
-## To Do 
-To work with real scan results, the module for converting the JSON format is required.
+## Roadmap / To-Do
+[ ] Enhance the UI/UX for better task visualization.
+
+[ ] Add export functionality for generated tasks (PDF/CSV).
 
 ## Credits
 - FastAPI - https://fastapi.tiangolo.com/lo/
